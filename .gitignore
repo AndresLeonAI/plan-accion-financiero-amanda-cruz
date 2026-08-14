@@ -1,0 +1,57 @@
+# === DATOS DE CLIENTE — NUNCA VERSIONAR ===
+# Este repo contiene el METODO, no los datos de ningun cliente.
+*.xlsx
+*.xlsm
+*.xls
+*.docx
+*.doc
+*.pdf
+*.pptx
+*.ppt
+*.csv
+
+# Material de investigacion (video, audio, transcripciones)
+*.mov
+*.mp4
+*.mkv
+*.webm
+*.ogg
+*.opus
+*.m4a
+*.mp3
+*.wav
+
+# Carpetas de trabajo con datos reales
+clientes/
+planes/
+salidas/
+_scratch/
+_tmp/
+
+# === SECRETOS ===
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials*
+secrets*
+
+# === SISTEMA ===
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+.~lock.*
+
+# === HERRAMIENTAS ===
+__pycache__/
+*.py[cod]
+node_modules/
+.venv/
+venv/
+
+# === CLAUDE CODE ===
+# Las skills SI se versionan. La configuracion local no.
+.claude/settings.local.json
+.claude/*.local.json
